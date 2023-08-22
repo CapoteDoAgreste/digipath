@@ -15,13 +15,6 @@ class DigiDB {
     this.digimonData = {
       digimons: [
         {
-          name: 'Placeholder',
-          image: '',
-          stage: 'Placeholder',
-          from: [],
-          into: [],
-        },
-        {
           name: 'Kuramon',
           image: '',
           stage: stage[0],
@@ -331,7 +324,7 @@ class DigiDB {
             'Wizardmon',
             'Kurisarimon',
             'Bakemon',
-            'PlatinumSukamon',
+            'Platinum Sukamon',
             'Arcadiamon Champion',
           ],
         },
@@ -410,6 +403,13 @@ class DigiDB {
             'Guardromon (Gold)',
             'Golemon',
           ],
+        },
+        {
+          name: 'Chuumon',
+          image: '',
+          stage: stage[2],
+          from: ['Pagumon'],
+          into: ['Raremon', 'Sukamon', 'Nanimon', 'BlackGatomon'],
         },
         {
           name: 'Terriermon',
@@ -499,7 +499,7 @@ class DigiDB {
             'Clockmon',
             'GoldNumemon',
             'Starmon',
-            'PlatinumSukamon',
+            'Platinum Sukamon',
           ],
         },
         {
@@ -524,7 +524,7 @@ class DigiDB {
           into: [
             'Greymon',
             'GeoGreymon',
-            'PlatinumSukamon',
+            'Platinum Sukamon',
             'Zubaeagermon',
             'BaoHuckmon',
             'Monochromon',
@@ -570,6 +570,19 @@ class DigiDB {
           stage: stage[2],
           from: ['Tokomon'],
           into: ['Aquilamon', 'ExVeemon', 'Stingmon', 'Peckmon'],
+        },
+        {
+          name: 'FanBeemon',
+          image: '',
+          stage: stage[2],
+          from: ['Tanemon'],
+          into: [
+            'Guardromon (Gold)',
+            'Raptordramon',
+            'Stingmon',
+            'Waspmon',
+            'Togemon',
+          ],
         },
         {
           name: 'Veemon',
@@ -771,7 +784,7 @@ class DigiDB {
           into: ['Zudomon', 'Whamon', 'MachGaogamon', 'Triceramon'],
         },
         {
-          name: 'Wizzardmon',
+          name: 'Wizardmon',
           image: '',
           stage: stage[3],
           from: ['Impmon', 'Keramon', 'Lopmon'],
@@ -845,7 +858,7 @@ class DigiDB {
             'Andromon',
             'GrapLeomon',
             'Datamon',
-            'MetaMamemon',
+            'MetalMamemon',
             'CatchMamemon',
           ],
         },
@@ -988,7 +1001,7 @@ class DigiDB {
           into: ['ShogunGekomon', 'Whamon', 'SegaSeadramon'],
         },
         {
-          name: 'Geromon',
+          name: 'Geremon',
           image: '',
           stage: stage[3],
           from: ['Armadillomon', 'Elecmon', 'Solarmon'],
@@ -1013,7 +1026,7 @@ class DigiDB {
           image: '',
           stage: stage[3],
           from: ['Armadillomon', 'Kudamon', 'Hagurumon', 'Zubamon'],
-          into: ['BlackKingNumemon', 'Vademon', 'PlatinumNumemon'],
+          into: ['BlackKingNumemon', 'Vademon', 'Platinum Numemon'],
         },
         {
           name: 'Golemon',
@@ -1035,7 +1048,7 @@ class DigiDB {
           stage: stage[3],
           from: ['Gaomon', 'Dracmon', 'Lunamon'],
           into: [
-            'kendoGarurumon',
+            'KendoGarurumon',
             'Matadormon',
             'Myotismon',
             'WereGarurumon (Blk)',
@@ -1253,7 +1266,7 @@ class DigiDB {
           into: ['Lillymon', 'CannonBeemon', 'Lilamon'],
         },
         {
-          name: 'PlatinumSukamon',
+          name: 'Platinum Sukamon',
           image: '',
           stage: stage[3],
           from: ['Keramon', 'Hagurumon', 'Hackmon'],
@@ -1335,7 +1348,7 @@ class DigiDB {
           into: [
             'SkullSatamon',
             'Dragomon',
-            'Phantamon',
+            'Phantomon',
             'BlackKingNumemon',
             'MetalGreymon (Blue)',
           ],
@@ -1466,10 +1479,10 @@ class DigiDB {
           name: 'Etemon',
           image: '',
           stage: stage[4],
-          from: ['Geremon', 'Sukamon', 'Numemon', 'PlatinumSukamon'],
+          from: ['Geremon', 'Sukamon', 'Numemon', 'Platinum Sukamon'],
           into: [
             'Piedmon',
-            'PlatinumNumemon',
+            'Platinum Numemon',
             'MetalEtemon',
             'KingEtemon',
             'PileVolcamon',
@@ -1533,7 +1546,7 @@ class DigiDB {
           name: 'CatchMamemon',
           image: '',
           stage: stage[4],
-          from: ['Guardromon', 'Starmon', 'PlatinumSukamon'],
+          from: ['Guardromon', 'Starmon', 'Platinum Sukamon'],
           into: ['Justimon', 'Pupetmon', 'PrinceMamemon'],
         },
         {
@@ -1622,7 +1635,7 @@ class DigiDB {
           image: '',
           stage: stage[4],
           from: ['Geremon', 'Sukamon', 'Starmon', 'Nanimon'],
-          into: ['Gankoomon', 'Justimon', 'PlatinumNumemon'],
+          into: ['Gankoomon', 'Justimon', 'Platinum Numemon'],
         },
         {
           name: 'SkullGreymon',
@@ -1674,7 +1687,7 @@ class DigiDB {
           into: ['Kentaurosmon', 'Seraphimon', 'MetalGarurumon'],
         },
         {
-          name: 'DinoBeemon',
+          name: 'Dinobeemon',
           image: '',
           stage: stage[4],
           from: ['ExVeemon', 'Stingmon'],
@@ -1807,7 +1820,7 @@ class DigiDB {
           image: '',
           stage: stage[4],
           from: ['ShellNumemon', 'GoldNumemon', 'Numemon', 'Raremon'],
-          into: ['PlatinumNumemon', 'PrinceMamemon', 'MetalEtemon'],
+          into: ['Platinum Numemon', 'PrinceMamemon', 'MetalEtemon'],
         },
         {
           name: 'BlueMeramon',
@@ -1959,7 +1972,7 @@ class DigiDB {
           name: 'MetalMamemon',
           image: '',
           stage: stage[4],
-          from: ['Guardromon', 'Geremon', 'Starmon', 'PlatinumSukamon'],
+          from: ['Guardromon', 'Geremon', 'Starmon', 'Platinum Sukamon'],
           into: ['Ebemon', 'HiAndromon', 'PrinceMamemon'],
         },
         {
@@ -1988,7 +2001,7 @@ class DigiDB {
           stage: stage[4],
           from: [
             'ExVeemon',
-            'Geogreymon',
+            'GeoGreymon',
             'Dorugamon',
             'Agunimon',
             'BaoHuckmon',
@@ -2287,7 +2300,7 @@ class DigiDB {
           image: '',
           stage: stage[5],
           from: ['SkullGreymon', 'MagnaAngemon', 'RizeGreymon'],
-          into: ['RizeGreymon BM'],
+          into: ['ShineGreymon BM'],
         },
         {
           name: 'ShineGreymon BM',
@@ -2392,7 +2405,7 @@ class DigiDB {
           from: [
             'SkullGreymon',
             'BlueMeramon',
-            'Armadiamon Ultimate',
+            'Arcadiamon Ultimate',
             'SkullSatamon',
           ],
           into: [],
@@ -2484,7 +2497,7 @@ class DigiDB {
           name: 'Piedmon',
           image: '',
           stage: stage[5],
-          from: ['Myotiusmon', 'Etemon', 'Wisemon', 'Matadormon'],
+          from: ['Myotismon', 'Etemon', 'Wisemon', 'Matadormon'],
           into: ['Apocalymon'],
         },
         {
@@ -2495,7 +2508,7 @@ class DigiDB {
           into: ['Apocalymon'],
         },
         {
-          name: 'PlatinumNumemon',
+          name: 'Platinum Numemon',
           image: '',
           stage: stage[5],
           from: ['GoldNumemon', 'Etemon', 'SuperStarmon', 'BlackKingNumemon'],
@@ -2541,7 +2554,7 @@ class DigiDB {
           image: '',
           stage: stage[5],
           from: ['Infermon', 'SkullMeramon'],
-          into: ['Bellzemon BM'],
+          into: ['Beelzemon BM'],
         },
         {
           name: 'Beelzemon BM',
@@ -2799,6 +2812,13 @@ class DigiDB {
           image: '',
           stage: stage[6],
           from: ['BanchoLeomon', 'Darkdramon'],
+          into: [],
+        },
+        {
+          name: 'Chaosmon VA',
+          image: '',
+          stage: stage[6],
+          from: ['Varodurumon', 'BanchoLeomon'],
           into: [],
         },
         {

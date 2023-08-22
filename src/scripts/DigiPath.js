@@ -2,7 +2,9 @@ import DigiDb from '../mocks/DigiDB';
 
 const database = new DigiDb().digimonData;
 let path = [];
+let digiCache = [];
 let found = false;
+let newFinal = '';
 
 function getID(digiName) {
   const {digimons} = database;
@@ -13,26 +15,52 @@ function getName(digiID) {
   return database.digimons[digiID].name;
 }
 
-function verifyCurrentLine(digiID, final) {
-  const into = database.digimons[digiID].into.findIndex(
-    digimon => digimon === final,
-  );
-  const from = database.digimons[digiID].from.findIndex(
-    digimon => digimon === final,
-  );
+function verifyCurrentLine(digiID, initial, final) {
+  let found_ = false;
 
-  if (into != -1 || from != -1) {
-    path.push(getName(digiID));
-  }
+  const {from, into} = database.digimons[digiID];
 
-  return into != -1 || from != -1;
+  from.forEach(digimon => {
+    if (digimon == final) {
+      path.push(digimon);
+      found_ = true;
+    } else {
+      console.log(getID(digimon), digimon);
+      digiCache.push(getID(digimon));
+    }
+  });
+
+  into.forEach(digimon => {
+    if (digimon == final) {
+      path.push(digimon);
+      newFinal = digimon;
+      found_ = true;
+    } else {
+      if (getID(digimon) < -0) {
+        console.log(getID(digimon), digimon);
+      }
+
+      digiCache.push(getID(digimon));
+    }
+  });
+
+  return found_;
 }
 
-export default function DigiPath(initial, final, exceptions) {
-  const initialID = getID(initial);
-  verifyCurrentLine(initialID, final);
-  if (path[0] == initial) {
-    path.push(final);
+export default function DigiPath(initialDigimon, finalDigimon, exceptions) {
+  const initialID = getID(initialDigimon);
+  const initialSeek = verifyCurrentLine(
+    initialID,
+    initialDigimon,
+    finalDigimon,
+  );
+  if (!initialSeek) {
+    while (!found) {
+      digiCache.forEach(digimon => {
+        found = verifyCurrentLine(digimon, initialDigimon, newFinal);
+      });
+    }
+  } else {
   }
 
   return path;
