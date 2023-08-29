@@ -11,6 +11,7 @@ function getID(digiName) {
   const ID = digimons.findIndex(digimon => digimon.name === digiName);
   return ID;
 }
+
 function getName(digiID) {
   return database.digimons[digiID].name;
 }
@@ -20,48 +21,35 @@ function verifyCurrentLine(digiID, initial, final) {
 
   const {from, into} = database.digimons[digiID];
 
-  from.forEach(digimon => {
-    if (digimon == final) {
-      path.push(digimon);
-      found_ = true;
-    } else {
-      console.log(getID(digimon), digimon);
-      digiCache.push(getID(digimon));
-    }
-  });
+  found_ = from.includes(final);
+  if (!found_) found_ = into.includes(final);
 
-  into.forEach(digimon => {
-    if (digimon == final) {
-      path.push(digimon);
-      newFinal = digimon;
-      found_ = true;
-    } else {
-      if (getID(digimon) < -0) {
-        console.log(getID(digimon), digimon);
-      }
-
-      digiCache.push(getID(digimon));
-    }
-  });
+  if (found_) {
+    digiName = getName(digiID);
+    console.log(digiName);
+    path.push(digiName);
+    newFinal = digiName;
+    if (digiName == initial) found = true;
+  } else {
+    digiCache = digiCache.concat(from);
+    digiCache = digiCache.concat(into);
+  }
 
   return found_;
 }
 
 export default function DigiPath(initialDigimon, finalDigimon, exceptions) {
-  const initialID = getID(initialDigimon);
-  const initialSeek = verifyCurrentLine(
-    initialID,
-    initialDigimon,
-    finalDigimon,
-  );
-  if (!initialSeek) {
-    while (!found) {
-      digiCache.forEach(digimon => {
-        found = verifyCurrentLine(digimon, initialDigimon, newFinal);
-      });
-    }
-  } else {
+  newFinal = finalDigimon;
+  digiCache.push(initialDigimon);
+
+  while (!found) {
+    digiCache.forEach(seekedDigimon => {
+      console.log(seekedDigimon);
+      verifyCurrentLine(getID(seekedDigimon), initialDigimon, newFinal);
+    });
   }
+
+  path.push(finalDigimon);
 
   return path;
 }

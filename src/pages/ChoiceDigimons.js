@@ -4,9 +4,11 @@ import PathShow from '../scripts/PathShow';
 import DigiPath from '../scripts/DigiPath';
 
 export default function ChoiceDigimon() {
-  const initial = 'Greymon';
-  const final = 'Koromon';
+  const initial = 'BanchoLeomon';
+  const final = 'Omnimon';
   const exceptions = [];
-  console.log(DigiPath(initial, final, exceptions));
-  return <Text></Text>;
+
+  result = DigiPath(initial, final, exceptions).toString();
+  console.log('init');
+  return <Text>{result}</Text>;
 }

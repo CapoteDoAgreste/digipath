@@ -541,7 +541,7 @@ class DigiDB {
             'Sunflowmon',
             'Togemon',
             'Vegiemon',
-            'Mudfrigimon',
+            'MudFrigimon',
           ],
         },
         {
@@ -650,7 +650,7 @@ class DigiDB {
             'Strikedramon',
             'Raptordramon',
             'Kurisarimon',
-            'Korugamon',
+            'Dorugamon',
           ],
         },
         {
@@ -672,7 +672,7 @@ class DigiDB {
           image: '',
           stage: stage[2],
           from: ['Nyaromon'],
-          into: ['Sangloupmon', 'Lekismon', 'Sistemon Ciel', 'Gatomon'],
+          into: ['Sangloupmon', 'Lekismon', 'Sistermon Ciel', 'Gatomon'],
         },
         {
           name: 'Renamon',
@@ -991,14 +991,14 @@ class DigiDB {
           image: '',
           stage: stage[3],
           from: ['Tentomon', 'Palmon', 'Wormmon'],
-          into: ['Okuwamon', ',CannonBeemon', 'Cherrymon'],
+          into: ['Okuwamon', 'CannonBeemon', 'Cherrymon'],
         },
         {
           name: 'Gekomon',
           image: '',
           stage: stage[3],
           from: ['Otamamon', 'Syakomon', 'Betamon'],
-          into: ['ShogunGekomon', 'Whamon', 'SegaSeadramon'],
+          into: ['ShogunGekomon', 'Whamon', 'MegaSeadramon'],
         },
         {
           name: 'Geremon',
@@ -1055,7 +1055,7 @@ class DigiDB {
           ],
         },
         {
-          name: 'SunFlowmon',
+          name: 'Sunflowmon',
           image: '',
           stage: stage[3],
           from: ['Tentomon', 'Palmon', 'Lalamon', 'Mushroomon'],
@@ -1108,7 +1108,7 @@ class DigiDB {
           image: '',
           stage: stage[3],
           from: ['Gomamon', 'Veemon', 'Monodramon'],
-          into: ['SaviorHuckmon', 'Cybverdramon', 'WereGarurumon'],
+          into: ['SaviorHuckmon', 'Cyberdramon', 'WereGarurumon'],
         },
         {
           name: 'Zubaeagermon',
@@ -1374,6 +1374,13 @@ class DigiDB {
           into: ['Crescemon', 'Antylamon', 'MachGaogamon'],
         },
         {
+          name: 'Reppamon',
+          image: '',
+          stage: stage[3],
+          from: ['Gabumon (Blk)', 'Kudamon', 'Salamon', 'Ryudamon'],
+          into: ['Chirinmon', 'Piximon', 'Rapidmon'],
+        },
+        {
           name: 'Waspmon',
           image: '',
           stage: stage[3],
@@ -1492,7 +1499,7 @@ class DigiDB {
           name: 'Angewomon',
           image: '',
           stage: stage[4],
-          from: ['SunGlowmon', 'Gatomon', 'Frigimon'],
+          from: ['Sunflowmon', 'Gatomon', 'Frigimon'],
           into: ['Ophanimon', 'Magnadramon', 'Mastemon', 'Valkyrimon'],
         },
         {
@@ -1547,7 +1554,7 @@ class DigiDB {
           image: '',
           stage: stage[4],
           from: ['Guardromon', 'Starmon', 'Platinum Sukamon'],
-          into: ['Justimon', 'Pupetmon', 'PrinceMamemon'],
+          into: ['Justimon', 'Puppetmon', 'PrinceMamemon'],
         },
         {
           name: 'CannonBeemon',
@@ -1598,7 +1605,7 @@ class DigiDB {
             'Kurisarimon',
             'Veedramon',
             'BlackGatomon',
-            'Stridramon',
+            'Strikedramon',
             'Turuiemon',
           ],
           into: ['Alphamon', 'Justimon', 'Titamon'],
@@ -2027,7 +2034,7 @@ class DigiDB {
           image: '',
           stage: stage[4],
           from: ['Sunflowmon', 'Gatomon', 'Togemon', 'Hudiemon'],
-          into: ['Megnadramon', 'Rosemon', 'Lotosmon'],
+          into: ['Magnadramon', 'Rosemon', 'Lotosmon'],
         },
         {
           name: 'Lucemon FM',
@@ -2287,6 +2294,7 @@ class DigiDB {
           image: '',
           stage: stage[5],
           from: ['Silphymon', 'Taomon', 'Monzaemon'],
+          into: [],
         },
         {
           name: 'Jesmon',
@@ -2720,7 +2728,7 @@ class DigiDB {
           name: 'Ravemon',
           image: '',
           stage: stage[5],
-          from: ['ArtoVeedramon', 'Garudamon', 'Crowmon'],
+          from: ['AeroVeedramon', 'Garudamon', 'Crowmon'],
           into: ['Ravemon BM'],
         },
         {
@@ -2759,7 +2767,7 @@ class DigiDB {
           into: [],
         },
         {
-          name: 'Armageddon',
+          name: 'Armageddemon',
           image: '',
           stage: stage[6],
           from: ['Diaboromon'],
@@ -2896,7 +2904,7 @@ class DigiDB {
           image: '',
           stage: stage[3],
           from: ['Ryudamon'],
-          into: ['Hisyaryumon', 'Cannonbeemon', 'MegaSeadramon'],
+          into: ['Hisyaryumon', 'CannonBeemon', 'MegaSeadramon'],
         },
         {
           name: 'Hisyaryumon',
