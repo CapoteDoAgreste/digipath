@@ -181,14 +181,14 @@ class DigiDB {
         },
         {
           name: "Arcadiamon Rookie",
-          image: pictures[0],
+          image: pictures[19],
           stage: stage[2],
           from: ["Arcadiamon In-Tr"],
           into: ["Arcadiamon Champion", "Kurisarimon", "Leomon"],
         },
         {
           name: "Armadillomon",
-          image: pictures[19],
+          image: pictures[20],
           stage: stage[2],
           from: ["Nyaromon"],
           into: [
@@ -202,7 +202,7 @@ class DigiDB {
         },
         {
           name: "Impmon",
-          image: pictures[20],
+          image: pictures[21],
           stage: stage[2],
           from: ["Pagumon"],
           into: [
@@ -216,7 +216,7 @@ class DigiDB {
         },
         {
           name: "Elecmon",
-          image: pictures[21],
+          image: pictures[22],
           stage: stage[2],
           from: ["Yokomon"],
           into: [
@@ -230,7 +230,7 @@ class DigiDB {
         },
         {
           name: "Otamamon",
-          image: pictures[22],
+          image: pictures[23],
           stage: stage[2],
           from: ["Bukamon"],
           into: [
@@ -244,7 +244,7 @@ class DigiDB {
         },
         {
           name: "Gaomon",
-          image: pictures[23],
+          image: pictures[24],
           stage: stage[2],
           from: ["Wanyamon"],
           into: [
@@ -258,7 +258,7 @@ class DigiDB {
         },
         {
           name: "Gazimon",
-          image: pictures[24],
+          image: pictures[25],
           stage: stage[2],
           from: ["Pagumon"],
           into: [
@@ -273,7 +273,7 @@ class DigiDB {
 
         {
           name: "Gabumon",
-          image: pictures[25],
+          image: pictures[26],
           stage: stage[2],
           from: ["Tsunomon"],
           into: [
@@ -287,7 +287,7 @@ class DigiDB {
         },
         {
           name: "Gabumon (Blk)",
-          image: pictures[26],
+          image: pictures[27],
           stage: stage[2],
           from: ["Tsunomon"],
           into: [
@@ -300,7 +300,7 @@ class DigiDB {
         },
         {
           name: "Guilmon",
-          image: pictures[0],
+          image: pictures[28],
           stage: stage[2],
           from: ["Koromon"],
           into: [
@@ -314,14 +314,14 @@ class DigiDB {
         },
         {
           name: "Kudamon",
-          image: pictures[0],
+          image: pictures[29],
           stage: stage[2],
           from: ["Wanyamon"],
           into: ["Angemon", "GoldNumemon", "Peckmon", "Reppamon", "Lobomon"],
         },
         {
           name: "Keramon",
-          image: pictures[0],
+          image: pictures[30],
           stage: stage[2],
           from: ["Tsumemon"],
           into: [
@@ -334,7 +334,7 @@ class DigiDB {
         },
         {
           name: "Gotsumon",
-          image: pictures[0],
+          image: pictures[31],
           stage: stage[2],
           from: ["Motimon"],
           into: [
@@ -348,7 +348,7 @@ class DigiDB {
         },
         {
           name: "Goblimon",
-          image: pictures[0],
+          image: pictures[32],
           stage: stage[2],
           from: ["Tsunomon"],
           into: [
@@ -362,7 +362,7 @@ class DigiDB {
         },
         {
           name: "Gomamon",
-          image: pictures[0],
+          image: pictures[33],
           stage: stage[2],
           from: ["Bukamon"],
           into: [
@@ -376,7 +376,7 @@ class DigiDB {
         },
         {
           name: "Syakomon",
-          image: pictures[0],
+          image: pictures[34],
           stage: stage[2],
           from: ["Bukamon"],
           into: [
@@ -389,14 +389,14 @@ class DigiDB {
         },
         {
           name: "Zubamon",
-          image: pictures[0],
+          image: pictures[35],
           stage: stage[2],
           from: ["Tsunomon"],
           into: ["Zubaeagermon", "BaoHuckmon", "GoldNumemon", "Ginryumon"],
         },
         {
           name: "Solarmon",
-          image: pictures[0],
+          image: pictures[36],
           stage: stage[2],
           from: ["Motimon"],
           into: [
@@ -410,14 +410,14 @@ class DigiDB {
         },
         {
           name: "Chuumon",
-          image: pictures[0],
+          image: pictures[37],
           stage: stage[2],
           from: ["Pagumon"],
           into: ["Raremon", "Sukamon", "Nanimon", "BlackGatomon"],
         },
         {
           name: "Terriermon",
-          image: pictures[0],
+          image: pictures[38],
           stage: stage[2],
           from: ["Nyaromon"],
           into: [
@@ -430,7 +430,7 @@ class DigiDB {
         },
         {
           name: "Tentomon",
-          image: pictures[0],
+          image: pictures[39],
           stage: stage[2],
           from: ["Motimon"],
           into: [
@@ -443,7 +443,7 @@ class DigiDB {
         },
         {
           name: "ToyAgumon",
-          image: pictures[0],
+          image: pictures[40],
           stage: stage[2],
           from: ["Koromon"],
           into: [
@@ -457,7 +457,7 @@ class DigiDB {
         },
         {
           name: "Dracmon",
-          image: pictures[0],
+          image: pictures[41],
           stage: stage[2],
           from: ["Tsumemon"],
           into: [
@@ -470,7 +470,7 @@ class DigiDB {
         },
         {
           name: "Dracomon",
-          image: pictures[0],
+          image: pictures[42],
           stage: stage[2],
           from: ["Koromon"],
           into: [
@@ -482,7 +482,7 @@ class DigiDB {
         },
         {
           name: "Dorumon",
-          image: pictures[0],
+          image: pictures[43],
           stage: stage[2],
           from: ["Wanyamon"],
           into: [
@@ -495,7 +495,7 @@ class DigiDB {
         },
         {
           name: "Hagurumon",
-          image: pictures[0],
+          image: pictures[44],
           stage: stage[2],
           from: ["Motimon"],
           into: [
@@ -508,7 +508,7 @@ class DigiDB {
         },
         {
           name: "Patamon",
-          image: pictures[0],
+          image: pictures[45],
           stage: stage[2],
           from: ["Tokomon"],
           into: [
@@ -522,7 +522,7 @@ class DigiDB {
         },
         {
           name: "Hackmon",
-          image: pictures[0],
+          image: pictures[46],
           stage: stage[2],
           from: ["Koromon"],
           into: [
@@ -536,7 +536,7 @@ class DigiDB {
         },
         {
           name: "Palmon",
-          image: pictures[0],
+          image: pictures[47],
           stage: stage[2],
           from: ["Tanemon"],
           into: [
@@ -550,14 +550,14 @@ class DigiDB {
         },
         {
           name: "DemiDevimon",
-          image: pictures[0],
+          image: pictures[48],
           stage: stage[2],
           from: ["Tsumemon"],
           into: ["IceDevimon", "Kyubimon", "Kurisarimon", "Devimon", "Bakemon"],
         },
         {
           name: "Biyomon",
-          image: pictures[0],
+          image: pictures[49],
           stage: stage[2],
           from: ["Yokomon"],
           into: [
@@ -570,14 +570,14 @@ class DigiDB {
         },
         {
           name: "Falcomon",
-          image: pictures[0],
+          image: pictures[50],
           stage: stage[2],
           from: ["Tokomon"],
           into: ["Aquilamon", "ExVeemon", "Stingmon", "Peckmon"],
         },
         {
           name: "FanBeemon",
-          image: pictures[0],
+          image: pictures[51],
           stage: stage[2],
           from: ["Tanemon"],
           into: [
@@ -590,7 +590,7 @@ class DigiDB {
         },
         {
           name: "Veemon",
-          image: pictures[0],
+          image: pictures[52],
           stage: stage[2],
           from: ["Tsunomon"],
           into: [
@@ -604,7 +604,7 @@ class DigiDB {
         },
         {
           name: "Salamon",
-          image: pictures[0],
+          image: pictures[53],
           stage: stage[2],
           from: ["Nyaromon"],
           into: [
@@ -618,7 +618,7 @@ class DigiDB {
         },
         {
           name: "Betamon",
-          image: pictures[0],
+          image: pictures[54],
           stage: stage[2],
           from: ["Bukamon"],
           into: [
@@ -632,21 +632,21 @@ class DigiDB {
         },
         {
           name: "Hawkmon",
-          image: pictures[0],
+          image: pictures[55],
           stage: stage[2],
           from: ["Tokomon"],
           into: ["Aquilamon", "Birdramon", "Peckmon", "Meramon", "Airdramon"],
         },
         {
           name: "Mushroomon",
-          image: pictures[0],
+          image: pictures[55],
           stage: stage[2],
           from: ["Yokomon"],
           into: ["MudFrigimon", "Woodmon", "Sunflowmon", "Vegiemon"],
         },
         {
           name: "Monodramon",
-          image: pictures[0],
+          image: pictures[56],
           stage: stage[2],
           from: ["Tsunomon"],
           into: [
@@ -659,28 +659,28 @@ class DigiDB {
         },
         {
           name: "Lalamon",
-          image: pictures[0],
+          image: pictures[57],
           stage: stage[2],
           from: ["Tanemon"],
           into: ["Woodmon", "Sunflowmon", "Togemon", "Vegiemon"],
         },
         {
           name: "Lucemon",
-          image: pictures[0],
+          image: pictures[58],
           stage: stage[2],
           from: ["Tokomon"],
           into: ["Angemon", "Devimon", "Lucemon FM"],
         },
         {
           name: "Lunamon",
-          image: pictures[0],
+          image: pictures[59],
           stage: stage[2],
           from: ["Nyaromon"],
           into: ["Sangloupmon", "Lekismon", "Sistermon Ciel", "Gatomon"],
         },
         {
           name: "Renamon",
-          image: pictures[0],
+          image: pictures[60],
           stage: stage[2],
           from: ["Tanemon"],
           into: [
@@ -694,7 +694,7 @@ class DigiDB {
         },
         {
           name: "Lopmon",
-          image: pictures[0],
+          image: pictures[61],
           stage: stage[2],
           from: ["Pagumon"],
           into: [
@@ -708,7 +708,7 @@ class DigiDB {
         },
         {
           name: "Wormmon",
-          image: pictures[0],
+          image: pictures[62],
           stage: stage[2],
           from: ["Yokomon"],
           into: [
@@ -722,7 +722,7 @@ class DigiDB {
         },
         {
           name: "IceDevimon",
-          image: pictures[0],
+          image: pictures[63],
           stage: stage[3],
           from: ["Impmon", "DemiDevimon", "Wormmon"],
           into: [
@@ -735,14 +735,14 @@ class DigiDB {
         },
         {
           name: "Icemon",
-          image: pictures[0],
+          image: pictures[64],
           stage: stage[3],
           from: ["Gotsumon", "Gomamon"],
           into: ["Meteormon", "Panjyamon", "Zudomon"],
         },
         {
           name: "Aquilamon",
-          image: pictures[0],
+          image: pictures[65],
           stage: stage[3],
           from: ["Biyomon", "Falcomon", "Hawkmon"],
           into: [
@@ -755,21 +755,21 @@ class DigiDB {
         },
         {
           name: "Agunimon",
-          image: pictures[0],
+          image: pictures[66],
           stage: stage[3],
           from: ["Agumon", "Guilmon"],
           into: ["BurningGreymon", "Matadormon", "SkullMeramon", "RizeGreymon"],
         },
         {
           name: "Arcadiamon Champion",
-          image: pictures[0],
+          image: pictures[67],
           stage: stage[3],
           from: ["Arcadiamon Rookie", "Keramon", "Dracmon"],
           into: ["Arcadiamon Ultimate", "SkullSatamon", "Infermon"],
         },
         {
           name: "Ankylomon",
-          image: pictures[0],
+          image: pictures[68],
           stage: stage[3],
           from: ["Armadillomon", "Gotsumon", "Gomamon"],
           into: [
@@ -782,42 +782,42 @@ class DigiDB {
         },
         {
           name: "Ikkakumon",
-          image: pictures[0],
+          image: pictures[69],
           stage: stage[3],
           from: ["Gomamon", "Syakomon", "Terriermon"],
           into: ["Zudomon", "Whamon", "MachGaogamon", "Triceramon"],
         },
         {
           name: "Wizardmon",
-          image: pictures[0],
+          image: pictures[70],
           stage: stage[3],
           from: ["Impmon", "Keramon", "Lopmon"],
           into: ["Myotismon", "SkullMeramon", "Wisemon", "Phantomon"],
         },
         {
           name: "Lobomon",
-          image: pictures[0],
+          image: pictures[71],
           stage: stage[3],
           from: ["Gabumon", "Kudamon", "Veemon"],
           into: ["KendoGarurumon", "Knightmon", "WereGarurumon"],
         },
         {
           name: "Woodmon",
-          image: pictures[0],
+          image: pictures[72],
           stage: stage[3],
           from: ["Palmon", "Lalamon", "Renamon", "Mushroomon"],
           into: ["Cherrymon", "Taomon", "Pumpkinmon"],
         },
         {
           name: "Airdramon",
-          image: pictures[0],
+          image: pictures[73],
           stage: stage[3],
           from: ["Biyomon", "Hawkmon", "Betamon"],
           into: ["Wingdramon", "MegaSeadramon", "Megadramon", "MetalGreymon"],
         },
         {
           name: "ExVeemon",
-          image: pictures[0],
+          image: pictures[74],
           stage: stage[3],
           from: ["Patamon", "Falcomon", "Veemon"],
           into: [
@@ -830,7 +830,7 @@ class DigiDB {
         },
         {
           name: "Angemon",
-          image: pictures[0],
+          image: pictures[75],
           stage: stage[3],
           from: ["Kudamon", "Patamon", "Lucemon"],
           into: [
@@ -843,7 +843,7 @@ class DigiDB {
         },
         {
           name: "Ogremon",
-          image: pictures[0],
+          image: pictures[76],
           stage: stage[3],
           from: ["Impmon", "Gaomon", "Goblimon"],
           into: [
@@ -855,7 +855,7 @@ class DigiDB {
         },
         {
           name: "Guardromon",
-          image: pictures[0],
+          image: pictures[77],
           stage: stage[3],
           from: ["ToyAgumon", "Dorumon", "Hagurumon"],
           into: [
@@ -868,7 +868,7 @@ class DigiDB {
         },
         {
           name: "Guardromon (Gold)",
-          image: pictures[0],
+          image: pictures[78],
           stage: stage[3],
           from: ["ToyAgumon", "Solarmon", "FanBeemon"],
           into: [
@@ -881,42 +881,42 @@ class DigiDB {
         },
         {
           name: "GaoGamon",
-          image: pictures[0],
+          image: pictures[78],
           stage: stage[3],
           from: ["Gaomon", "Gazimon", "Goblimon"],
           into: ["GrapLeomon", "MachGaogamon", "WereGarurumon"],
         },
         {
           name: "Kabuterimon",
-          image: pictures[0],
+          image: pictures[79],
           stage: stage[3],
           from: ["Tentomon", "Biyomon", "Wormmon"],
           into: ["MegaKabuterimon", "Cherrymon", "Lilamon"],
         },
         {
           name: "ShellNumemon",
-          image: pictures[0],
+          image: pictures[80],
           stage: stage[3],
           from: ["Otamamon", "Syakomon", "Betamon"],
           into: ["ShogunGekomon", "BlackKingNumemon", "MegaSeadramon"],
         },
         {
           name: "Gargomon",
-          image: pictures[0],
+          image: pictures[81],
           stage: stage[3],
           from: ["Gaomon", "Terriermon", "Lopmon", "Sistermon Blanc"],
           into: ["Antylamon", "WarGrowlmon", "Rapidmon"],
         },
         {
           name: "Garurumon",
-          image: pictures[0],
+          image: pictures[82],
           stage: stage[3],
           from: ["Elecmon", "Gabumon", "Renamon"],
           into: ["Zudomon", "DoruGreymon", "Panjyamon", "WereGarurumon"],
         },
         {
           name: "Garurumon (Blk)",
-          image: pictures[0],
+          image: pictures[83],
           stage: stage[3],
           from: ["Elecmon", "Gazimon", "Gabumon (Blk)"],
           into: [
@@ -928,14 +928,14 @@ class DigiDB {
         },
         {
           name: "Kyubimon",
-          image: pictures[0],
+          image: pictures[84],
           stage: stage[3],
           from: ["DemiDevimon", "Biyomon", "Renamon"],
           into: ["Taomon", "Monzaemon", "LadyDevimon"],
         },
         {
           name: "Growlmon",
-          image: pictures[0],
+          image: pictures[85],
           stage: stage[3],
           from: ["Agumon (Blk)", "Guilmon", "Goblimon"],
           into: [
@@ -948,7 +948,7 @@ class DigiDB {
         },
         {
           name: "Kurisarimon",
-          image: pictures[0],
+          image: pictures[86],
           stage: stage[3],
           from: [
             "Gazimon",
@@ -961,7 +961,7 @@ class DigiDB {
         },
         {
           name: "Greymon",
-          image: pictures[0],
+          image: pictures[87],
           stage: stage[3],
           from: ["Agumon", "ToyAgumon", "Hackmon"],
           into: [
@@ -973,7 +973,7 @@ class DigiDB {
         },
         {
           name: "Greymon (Blue)",
-          image: pictures[0],
+          image: pictures[88],
           stage: stage[3],
           from: ["Agumon (Blk)", "Guilmon", "Goblimon"],
           into: [
@@ -985,70 +985,70 @@ class DigiDB {
         },
         {
           name: "Clockmon",
-          image: pictures[0],
+          image: pictures[89],
           stage: stage[3],
           from: ["Gotsumon", "Solarmon", "ToyAgumon", "Hagurumon"],
           into: ["Andromon", "Knightmon", "Datamon", "Wisemon"],
         },
         {
           name: "Kuwagamon",
-          image: pictures[0],
+          image: pictures[90],
           stage: stage[3],
           from: ["Tentomon", "Palmon", "Wormmon"],
           into: ["Okuwamon", "CannonBeemon", "Cherrymon"],
         },
         {
           name: "Gekomon",
-          image: pictures[0],
+          image: pictures[91],
           stage: stage[3],
           from: ["Otamamon", "Syakomon", "Betamon"],
           into: ["ShogunGekomon", "Whamon", "MegaSeadramon"],
         },
         {
           name: "Geremon",
-          image: pictures[0],
+          image: pictures[92],
           stage: stage[3],
           from: ["Armadillomon", "Elecmon", "Solarmon"],
           into: ["Etemon", "SuperStarmon", "MetalMamemon"],
         },
         {
           name: "Coredramon (Blue)",
-          image: pictures[0],
+          image: pictures[93],
           stage: stage[3],
           from: ["Dracomon", "Monodramon"],
           into: ["Wingdramon", "AeroVeedramon", "BlueMeramon"],
         },
         {
           name: "Coredramon (Green)",
-          image: pictures[0],
+          image: pictures[94],
           stage: stage[3],
           from: ["Goblimon", "Dracomon"],
           into: ["Groundramon", "Triceramon", "WarGrowlmon"],
         },
         {
           name: "GoldNumemon",
-          image: pictures[0],
+          image: pictures[95],
           stage: stage[3],
           from: ["Armadillomon", "Kudamon", "Hagurumon", "Zubamon"],
           into: ["BlackKingNumemon", "Vademon", "Platinum Numemon"],
         },
         {
           name: "Golemon",
-          image: pictures[0],
+          image: pictures[96],
           stage: stage[3],
           from: ["Armadillomon", "Gotsumon", "Solarmon"],
           into: ["Volcanomon", "Meteormon", "Pumpkinmon"],
         },
         {
           name: "Cyclonemon",
-          image: pictures[0],
+          image: pictures[97],
           stage: stage[3],
           from: ["Agumon (Blk)", "Armadillomon", "Dorumon"],
           into: ["DoruGreymon", "Datamon", "Megadramon"],
         },
         {
           name: "Sangloupmon",
-          image: pictures[0],
+          image: pictures[98],
           stage: stage[3],
           from: ["Gaomon", "Dracmon", "Lunamon"],
           into: [
@@ -1060,77 +1060,77 @@ class DigiDB {
         },
         {
           name: "Sunflowmon",
-          image: pictures[0],
+          image: pictures[99],
           stage: stage[3],
           from: ["Tentomon", "Palmon", "Lalamon", "Mushroomon"],
           into: ["Angemon", "Lilamon", "Lillymon"],
         },
         {
           name: "Seadramon",
-          image: pictures[0],
+          image: pictures[100],
           stage: stage[3],
           from: ["Otamamon", "Syakomon", "Betamon"],
           into: ["ShogunGekomon", "Whamon", "MegaSeadramon", "Hisyaryumon"],
         },
         {
           name: "Coelamon",
-          image: pictures[0],
+          image: pictures[101],
           stage: stage[3],
           from: ["Otamamon", "Syakomon"],
           into: ["Dragomon", "Andromon", "MegaSeadramon", "Hisyaryumon"],
         },
         {
           name: "GeoGreymon",
-          image: pictures[0],
+          image: pictures[102],
           stage: stage[3],
           from: ["Agumon", "Guilmon", "Hackmon"],
           into: ["Gigadramon", "SkullGreymon", "RizeGreymon", "Groundramon"],
         },
         {
           name: "Sukamon",
-          image: pictures[0],
+          image: pictures[103],
           stage: stage[3],
           from: ["Agumon", "Elecmon", "ToyAgumon", "Chuumon"],
           into: ["Etemon", "SuperStarmon", "Vademon"],
         },
         {
           name: "Starmon",
-          image: pictures[0],
+          image: pictures[104],
           stage: stage[3],
           from: ["Gotsumon", "Solarmon", "ToyAgumon", "Hagurumon"],
           into: ["SuperStarmon", "Mamemon", "CatchMamemon", "Crescemon"],
         },
         {
           name: "Stingmon",
-          image: pictures[0],
+          image: pictures[105],
           stage: stage[3],
           from: ["Tentomon", "Falcomon", "Wormmon", "FanBeemon"],
           into: ["Infermon", "Okuwamon", "Paildramon", "Dinobeemon"],
         },
         {
           name: "Strikedramon",
-          image: pictures[0],
+          image: pictures[106],
           stage: stage[3],
           from: ["Gomamon", "Veemon", "Monodramon"],
           into: ["SaviorHuckmon", "Cyberdramon", "WereGarurumon"],
         },
         {
           name: "Zubaeagermon",
-          image: pictures[0],
+          image: pictures[107],
           stage: stage[3],
           from: ["Hackmon", "Zubamon"],
           into: ["KendoGarurumon", "Duramon", "Phantomon"],
         },
         {
           name: "Socerimon",
-          image: pictures[0],
+          image: pictures[108],
           stage: stage[3],
           from: ["Impmon", "Gomamon", "Salamon"],
           into: ["Antylamon", "Piximon", "Wisemon"],
         },
         {
           name: "Tankmon",
-          image: pictures[0],
+          image: pictures[109],
           stage: stage[3],
           from: ["Agumon (Blk)", "Armadillomon", "Gotsumon"],
           into: [
@@ -1143,14 +1143,14 @@ class DigiDB {
         },
         {
           name: "MudFrigimon",
-          image: pictures[0],
+          image: pictures[110],
           stage: stage[3],
           from: ["Palmon", "Mushroomon", "Lopmon"],
           into: ["Pandamon", "Meteormon", "Pumpkinmon"],
         },
         {
           name: "Tyrannomon",
-          image: pictures[0],
+          image: pictures[111],
           stage: stage[3],
           from: ["Agumon", "Agumon (Blk)", "Guilmon"],
           into: [
@@ -1162,14 +1162,14 @@ class DigiDB {
         },
         {
           name: "Gatomon",
-          image: pictures[0],
+          image: pictures[112],
           stage: stage[3],
           from: ["Terriermon", "Patamon", "Salamon", "Lunamon"],
           into: ["Angewomon", "Silphymon", "Lillymon", "Pandamon"],
         },
         {
           name: "Devimon",
-          image: pictures[0],
+          image: pictures[113],
           stage: stage[3],
           from: ["DemiDevimon", "Lucemon", "Lopmon", "Dracmon"],
           into: [
@@ -1182,42 +1182,42 @@ class DigiDB {
         },
         {
           name: "Turuiemon",
-          image: pictures[0],
+          image: pictures[114],
           stage: stage[3],
           from: ["Renamon", "Lopmon"],
           into: ["Antylamon", "Cyberdramon", "Monzaemon"],
         },
         {
           name: "Togemon",
-          image: pictures[0],
+          image: pictures[115],
           stage: stage[3],
           from: ["Gaomon", "Palmon", "Lalamon", "FanBeemon"],
           into: ["Pumpkinmon", "MachGaogamon", "Lillymon"],
         },
         {
           name: "Dorugamon",
-          image: pictures[0],
+          image: pictures[116],
           stage: stage[3],
           from: ["Gazimon", "Gabumon", "Dorugamon", "Monodramon"],
           into: ["Chirinmon", "DoruGreymon", "RizeGreymon", "Grademon"],
         },
         {
           name: "Nanimon",
-          image: pictures[0],
+          image: pictures[117],
           stage: stage[3],
           from: ["Elecmon", "Gazimon", "Goblimon", "Chuumon"],
           into: ["Meteormon", "SuperStarmon", "Digitamamon"],
         },
         {
           name: "Numemon",
-          image: pictures[0],
+          image: pictures[118],
           stage: stage[3],
           from: ["Otamamon", "Gabumon", "Betamon"],
           into: ["Etemon", "BlackKingNumemon", "Monzaemon"],
         },
         {
           name: "Birdramon",
-          image: pictures[0],
+          image: pictures[119],
           stage: stage[3],
           from: ["Patamon", "Biyomon", "Hawkmon"],
           into: [
@@ -1231,14 +1231,14 @@ class DigiDB {
         },
         {
           name: "BaoHuckmon",
-          image: pictures[0],
+          image: pictures[120],
           stage: stage[3],
           from: ["Hackmon", "Zubamon", "Salamon"],
           into: ["KendoGarurumon", "SaviorHuckmon", "RizeGreymon"],
         },
         {
           name: "Bakemon",
-          image: pictures[0],
+          image: pictures[121],
           stage: stage[3],
           from: ["Impmon", "Keramon", "DemiDevimon"],
           into: [
@@ -1252,7 +1252,7 @@ class DigiDB {
         },
         {
           name: "Veedramon",
-          image: pictures[0],
+          image: pictures[122],
           stage: stage[3],
           from: ["Gabumon", "Veemon", "Salamon", "Dracomon"],
           into: [
@@ -1264,21 +1264,21 @@ class DigiDB {
         },
         {
           name: "Hudiemon",
-          image: pictures[0],
+          image: pictures[123],
           stage: stage[3],
           from: ["Wormmon"],
           into: ["Lillymon", "CannonBeemon", "Lilamon"],
         },
         {
           name: "Platinum Sukamon",
-          image: pictures[0],
+          image: pictures[124],
           stage: stage[3],
           from: ["Keramon", "Hagurumon", "Hackmon"],
           into: ["Etemon", "Vademon", "MetalMamemon", "CatchMamemon"],
         },
         {
           name: "BlackGatomon",
-          image: pictures[0],
+          image: pictures[125],
           stage: stage[3],
           from: ["Impmon", "Renamon", "Lopmon", "Chuumon"],
           into: [
@@ -1290,21 +1290,21 @@ class DigiDB {
         },
         {
           name: "Vegiemon",
-          image: pictures[0],
+          image: pictures[126],
           stage: stage[3],
           from: ["Gabumon (Blk)", "Palmon", "Betamon", "Lalamon", "Mushroomon"],
           into: ["MegaKabuterimon", "Digitamamon", "Lilamon"],
         },
         {
           name: "Peckmon",
-          image: pictures[0],
+          image: pictures[127],
           stage: stage[3],
           from: ["Kudamon", "Falcomon", "Hawkmon"],
           into: ["Antylamon", "Piximon", "Crowmon"],
         },
         {
           name: "Meramon",
-          image: pictures[0],
+          image: pictures[128],
           stage: stage[3],
           from: ["Agumon", "Guilmon", "Solarmon", "Hawkmon"],
           into: [
@@ -1318,35 +1318,35 @@ class DigiDB {
         },
         {
           name: "Monochromon",
-          image: pictures[0],
+          image: pictures[129],
           stage: stage[3],
           from: ["Agumon (Blk)", "Hackmon"],
           into: ["Triceramon", "SkullGreymon", "MetalTyrannomon"],
         },
         {
           name: "Frigimon",
-          image: pictures[0],
+          image: pictures[130],
           stage: stage[3],
           from: ["Gabumon", "Gabumon (Blk)", "Gomamon", "Salamon"],
           into: ["Angewomon", "Zudomon", "Monzaemon", "Crescemon"],
         },
         {
           name: "Unimon",
-          image: pictures[0],
+          image: pictures[131],
           stage: stage[3],
           from: ["Terriermon", "Patamon"],
           into: ["HippoGryphonmon", "Piximon", "MagnaAngemon"],
         },
         {
           name: "Raptordramon",
-          image: pictures[0],
+          image: pictures[132],
           stage: stage[3],
           from: ["Dorumon", "FanBeemon", "Monodramon", "Ryudamon"],
           into: ["Grademon", "Duramon", "Gigadramon", "DoruGreymon"],
         },
         {
           name: "Raremon",
-          image: pictures[0],
+          image: pictures[133],
           stage: stage[3],
           from: ["Otamamon", "Gabumon (Blk)", "Chuumon", "Dracmon"],
           into: [
@@ -1359,7 +1359,7 @@ class DigiDB {
         },
         {
           name: "Leomon",
-          image: pictures[0],
+          image: pictures[134],
           stage: stage[3],
           from: ["Elecmon", "Gaomon", "Gazimon", "Arcadiamon Rookie"],
           into: [
@@ -1372,49 +1372,49 @@ class DigiDB {
         },
         {
           name: "Lekismon",
-          image: pictures[0],
+          image: pictures[135],
           stage: stage[3],
           from: ["Renamon", "Lunamon", "Sistermon Blanc"],
           into: ["Crescemon", "Antylamon", "MachGaogamon"],
         },
         {
           name: "Reppamon",
-          image: pictures[0],
+          image: pictures[136],
           stage: stage[3],
           from: ["Gabumon (Blk)", "Kudamon", "Salamon", "Ryudamon"],
           into: ["Chirinmon", "Piximon", "Rapidmon"],
         },
         {
           name: "Waspmon",
-          image: pictures[0],
+          image: pictures[137],
           stage: stage[3],
           from: ["Tentomon", "Dorumon", "Wormmon", "FanBeemon"],
           into: ["MegaKabuterimon", "Okuwamon", "CannonBeemon", "Rapidmon"],
         },
         {
           name: "MegaKabuterimon",
-          image: pictures[0],
+          image: pictures[138],
           stage: stage[4],
           from: ["Kabuterimon", "Vegiemon", "Waspmon"],
           into: ["GranKuwagamon", "HerculesKabuterimon", "Magnadramon"],
         },
         {
           name: "Arcadiamon Ultimate",
-          image: pictures[0],
+          image: pictures[139],
           stage: stage[4],
           from: ["IceDevimon", "Arcadiamon Champion", "Kurisarimon"],
           into: ["Arcadiamon Mega", "Diaboromon", "Creepymon"],
         },
         {
           name: "Antylamon",
-          image: pictures[0],
+          image: pictures[140],
           stage: stage[4],
           from: ["Gargomon", "Socerimon", "Peckmon", "Turuiemon", "Lekismon"],
           into: ["Kerpymon (Good)", "Dianamon", "Diaboromon", "Kerpymon (Blk)"],
         },
         {
           name: "Andromon",
-          image: pictures[0],
+          image: pictures[141],
           stage: stage[4],
           from: [
             "Guardromon",
@@ -1427,7 +1427,7 @@ class DigiDB {
         },
         {
           name: "Meteormon",
-          image: pictures[0],
+          image: pictures[142],
           stage: stage[4],
           from: [
             "Ankylomon",
@@ -1441,14 +1441,14 @@ class DigiDB {
         },
         {
           name: "Infermon",
-          image: pictures[0],
+          image: pictures[143],
           stage: stage[4],
           from: ["Kurisarimon"],
           into: ["Stingmon", "Devimon", "Arcadiamon Champion"],
         },
         {
           name: "Myotismon",
-          image: pictures[0],
+          image: pictures[144],
           stage: stage[4],
           from: [
             "IceDevimon",
@@ -1467,28 +1467,28 @@ class DigiDB {
         },
         {
           name: "Wingdramon",
-          image: pictures[0],
+          image: pictures[145],
           stage: stage[4],
           from: ["Airdramon", "ExVeemon", "Coredramon (Blue)"],
           into: ["Slayerdramon", "UlforceVeedramon", "Dynasmon"],
         },
         {
           name: "BurningGreymon",
-          image: pictures[0],
+          image: pictures[146],
           stage: stage[4],
           from: ["Agunimon", "Growlmon", "Birdramon", "Meramon"],
           into: ["KaiserGreymon"],
         },
         {
           name: "AeroVeedramon",
-          image: pictures[0],
+          image: pictures[147],
           stage: stage[4],
           from: ["Aquilamon", "Birdramon", "Veedramon", "Coredramon (Blue)"],
           into: ["UlforceVeedramon", "Dynasmon", "Ravemon", "Goldramon"],
         },
         {
           name: "Etemon",
-          image: pictures[0],
+          image: pictures[148],
           stage: stage[4],
           from: ["Geremon", "Sukamon", "Numemon", "Platinum Sukamon"],
           into: [
@@ -1501,21 +1501,21 @@ class DigiDB {
         },
         {
           name: "Angewomon",
-          image: pictures[0],
+          image: pictures[149],
           stage: stage[4],
           from: ["Sunflowmon", "Gatomon", "Frigimon"],
           into: ["Ophanimon", "Magnadramon", "Mastemon", "Valkyrimon"],
         },
         {
           name: "Okuwamon",
-          image: pictures[0],
+          image: pictures[150],
           stage: stage[4],
           from: ["Kuwagamon", "Stingmon", "Waspmon"],
           into: ["GranKuwagamon", "Diaboromon", "HerculesKabuterimon"],
         },
         {
           name: "Garudamon",
-          image: pictures[0],
+          image: pictures[151],
           stage: stage[4],
           from: ["Aquilamon", "Angemon", "Birdramon"],
           into: [
@@ -1528,7 +1528,7 @@ class DigiDB {
         },
         {
           name: "KendoGarurumon",
-          image: pictures[0],
+          image: pictures[152],
           stage: stage[4],
           from: [
             "Lobomon",
@@ -1541,7 +1541,7 @@ class DigiDB {
         },
         {
           name: "Gigadramon",
-          image: pictures[0],
+          image: pictures[153],
           stage: stage[4],
           from: ["Growlmon", "GeoGreymon", "Tankmon", "Raptordramon"],
           into: [
@@ -1555,35 +1555,35 @@ class DigiDB {
         },
         {
           name: "CatchMamemon",
-          image: pictures[0],
+          image: pictures[154],
           stage: stage[4],
           from: ["Guardromon", "Starmon", "Platinum Sukamon"],
           into: ["Justimon", "Puppetmon", "PrinceMamemon"],
         },
         {
           name: "CannonBeemon",
-          image: pictures[0],
+          image: pictures[155],
           stage: stage[4],
           from: ["Kuwagamon", "Tankmon", "Waspmon", "Ginryumon", "Hudiemon"],
           into: ["GroundLocomon", "MegaGargomon", "TigerVespamon"],
         },
         {
           name: "Groundramon",
-          image: pictures[0],
+          image: pictures[156],
           stage: stage[4],
           from: ["Ankylomon", "Coredramon (Green)", "GeoGreymon"],
           into: ["Breakdramon", "Megidramon", "Vikemon"],
         },
         {
           name: "GrapLeomon",
-          image: pictures[0],
+          image: pictures[157],
           stage: stage[4],
           from: ["Guardromon", "GaoGamon", "Leomon"],
           into: ["SaberLeomon", "Leopardmon", "BanchoLeomon"],
         },
         {
           name: "Grademon",
-          image: pictures[0],
+          image: pictures[158],
           stage: stage[4],
           from: ["Guardromon (Gold)", "Dorugamon", "Raptordramon", "Leomon"],
           into: [
@@ -1596,14 +1596,14 @@ class DigiDB {
         },
         {
           name: "Crescemon",
-          image: pictures[0],
+          image: pictures[159],
           stage: stage[4],
           from: ["Starmon", "Frigimon", "Lekismon"],
           into: ["Kerpymon (Good)", "Kentaurosmon", "Dianamon"],
         },
         {
           name: "Cyberdramon",
-          image: pictures[0],
+          image: pictures[160],
           stage: stage[4],
           from: [
             "Kurisarimon",
@@ -1616,21 +1616,21 @@ class DigiDB {
         },
         {
           name: "Shakkoumon",
-          image: pictures[0],
+          image: pictures[161],
           stage: stage[4],
           from: ["Ankylomon", "Angemon"],
           into: ["Vikemon", "ChaosGallantmon", "Kerpymon (Good)"],
         },
         {
           name: "Cherrymon",
-          image: pictures[0],
+          image: pictures[162],
           stage: stage[4],
           from: ["IceDevimon", "Woodmon", "Kabuterimon", "Kuwagamon"],
           into: ["Kuzuhamon", "GranKuwagamon", "Puppetmon"],
         },
         {
           name: "Silphymon",
-          image: pictures[0],
+          image: pictures[163],
           stage: stage[4],
           from: ["Aquilamon", "Gatomon"],
           into: [
@@ -1643,98 +1643,98 @@ class DigiDB {
         },
         {
           name: "SuperStarmon",
-          image: pictures[0],
+          image: pictures[164],
           stage: stage[4],
           from: ["Geremon", "Sukamon", "Starmon", "Nanimon"],
           into: ["Gankoomon", "Justimon", "Platinum Numemon"],
         },
         {
           name: "SkullGreymon",
-          image: pictures[0],
+          image: pictures[165],
           stage: stage[4],
           from: ["Ankylomon", "Greymon", "GeoGreymon", "Monochromon"],
           into: ["ShineGreymon", "Titamon", "Creepymon"],
         },
         {
           name: "SkullSatamon",
-          image: pictures[0],
+          image: pictures[166],
           stage: stage[4],
           from: ["Arcadiamon Champion", "Ogremon", "Devimon", "Raremon"],
           into: ["GranDracmon", "Diaboromon", "Creepymon"],
         },
         {
           name: "Zudomon",
-          image: pictures[0],
+          image: pictures[167],
           stage: stage[4],
           from: ["Ikkakumon", "Garurumon", "Frigimon", "Icemon"],
           into: ["Vikemon", "MarineAngemon", "MetalGarurumon", "Plesiomon"],
         },
         {
           name: "SaviorHuckmon",
-          image: pictures[0],
+          image: pictures[168],
           stage: stage[4],
           from: ["Angemon", "Strikedramon", "BaoHuckmon"],
           into: ["Slayerdramon", "Valkyrimon", "Jesmon"],
         },
         {
           name: "Taomon",
-          image: pictures[0],
+          image: pictures[169],
           stage: stage[4],
           from: ["Woodmon", "Kyubimon", "Kurisarimon"],
           into: ["Kuzuhamon", "Sakuyamon", "Dianamon"],
         },
         {
           name: "Dragomon",
-          image: pictures[0],
+          image: pictures[170],
           stage: stage[4],
           from: ["IceDevimon", "Coelamon", "Raremon"],
           into: ["Neptunemon", "Ebemon", "Leviamon"],
         },
         {
           name: "Chirinmon",
-          image: pictures[0],
+          image: pictures[171],
           stage: stage[4],
           from: ["Dorugamon", "Birdramon", "Reppamon"],
           into: ["Kentaurosmon", "Seraphimon", "MetalGarurumon"],
         },
         {
           name: "Dinobeemon",
-          image: pictures[0],
+          image: pictures[172],
           stage: stage[4],
           from: ["ExVeemon", "Stingmon"],
           into: ["Imperialdramon DM", "GranKuwagamon"],
         },
         {
           name: "Digitamamon",
-          image: pictures[0],
+          image: pictures[173],
           stage: stage[4],
           from: ["Ogremon", "Nanimon", "Vegiemon"],
           into: ["Titamon", "Belphemon SM", "Minervamon"],
         },
         {
           name: "SkullMeramon",
-          image: pictures[0],
+          image: pictures[174],
           stage: stage[4],
           from: ["Wizardmon", "Ogremon", "Meramon", "Agunimon"],
           into: ["Gankoomon", "Beelzemon", "Boltmon"],
         },
         {
           name: "Duramon",
-          image: pictures[0],
+          image: pictures[175],
           stage: stage[4],
           from: ["Guardromon (Gold)", "Zubaeagermon", "Raptordramon"],
           into: ["Durandamon", "TigerVespamon", "Jesmon"],
         },
         {
           name: "ShogunGekomon",
-          image: pictures[0],
+          image: pictures[176],
           stage: stage[4],
           from: ["ShellNumemon", "Gekomon", "Seadramon"],
           into: ["Vikemon", "Plesiomon", "Leviamon", "KingEtemon"],
         },
         {
           name: "Triceramon",
-          image: pictures[0],
+          image: pictures[177],
           stage: stage[4],
           from: [
             "Ikkakumon",
@@ -1746,7 +1746,7 @@ class DigiDB {
         },
         {
           name: "DoruGreymon",
-          image: pictures[0],
+          image: pictures[178],
           stage: stage[4],
           from: [
             "Garurumon",
@@ -1759,7 +1759,7 @@ class DigiDB {
         },
         {
           name: "Knightmon",
-          image: pictures[0],
+          image: pictures[179],
           stage: stage[4],
           from: [
             "Greymon (Blue)",
@@ -1772,70 +1772,70 @@ class DigiDB {
         },
         {
           name: "Datamon",
-          image: pictures[0],
+          image: pictures[180],
           stage: stage[4],
           from: ["Guardromon", "Clockmon", "Cyclonemon"],
           into: ["GroundLocomon", "Machinedramon", "MetalGarurumon (Blk)"],
         },
         {
           name: "Paildramon",
-          image: pictures[0],
+          image: pictures[181],
           stage: stage[4],
           from: ["ExVeemon", "Stingmon"],
           into: ["Imperialdramon DM"],
         },
         {
           name: "Panjyamon",
-          image: pictures[0],
+          image: pictures[182],
           stage: stage[4],
           from: ["Garurumon", "Meramon", "Leomon", "Icemon"],
           into: ["SaberLeomon", "BanchoLeomon", "MirageGaogamon"],
         },
         {
           name: "Pandamon",
-          image: pictures[0],
+          image: pictures[183],
           stage: stage[4],
           from: ["Garurumon (Blk)", "MudFrigimon", "Gatomon", "Sistermon Ciel"],
           into: ["KingEtemon", "Justimon", "BanchoLeomon"],
         },
         {
           name: "Pumpkinmon",
-          image: pictures[0],
+          image: pictures[184],
           stage: stage[4],
           from: ["Woodmon", "Togemon", "Bakemon", "Golemon", "MudFrigimon"],
           into: ["Puppetmon", "Boltmon", "Rosemon"],
         },
         {
           name: "Piximon",
-          image: pictures[0],
+          image: pictures[185],
           stage: stage[4],
           from: ["Socerimon", "Peckmon", "Reppamon", "Unimon"],
           into: ["Ophanimon", "Hououmon", "MarineAngemon"],
         },
         {
           name: "HippoGryphonmon",
-          image: pictures[0],
+          image: pictures[186],
           stage: stage[4],
           from: ["Aquilamon", "Angemon", "Birdramon", "Unimon"],
           into: ["Varodurumon", "Gryphonmon", "Seraphimon"],
         },
         {
           name: "Phantomon",
-          image: pictures[0],
+          image: pictures[187],
           stage: stage[4],
           from: ["Wizardmon", "Zubaeagermon", "Bakemon", "Raremon"],
           into: ["VenomMyotismon", "Titamon", "Barbamon"],
         },
         {
           name: "BlackKingNumemon",
-          image: pictures[0],
+          image: pictures[188],
           stage: stage[4],
           from: ["ShellNumemon", "GoldNumemon", "Numemon", "Raremon"],
           into: ["Platinum Numemon", "PrinceMamemon", "MetalEtemon"],
         },
         {
           name: "BlueMeramon",
-          image: pictures[0],
+          image: pictures[189],
           stage: stage[4],
           from: [
             "Garurumon (Blk)",
@@ -1848,21 +1848,21 @@ class DigiDB {
         },
         {
           name: "Vademon",
-          image: pictures[0],
+          image: pictures[190],
           stage: stage[4],
           from: ["GoldNumemon", "Sukamon", "Platinum Sukamon"],
           into: ["Ebemon", "HiAndromon", "HerculesKabuterimon"],
         },
         {
           name: "Whamon",
-          image: pictures[0],
+          image: pictures[191],
           stage: stage[4],
           from: ["Ikkakumon", "Gekomon", "Seadramon"],
           into: ["Plesiomon", "MarineAngemon", "MetalSeadramon", "Neptunemon"],
         },
         {
           name: "MagnaAngemon",
-          image: pictures[0],
+          image: pictures[192],
           stage: stage[4],
           from: ["Ankylomon", "ExVeemon", "Angemon", "Unimon"],
           into: [
@@ -1875,21 +1875,21 @@ class DigiDB {
         },
         {
           name: "Volcanomon",
-          image: pictures[0],
+          image: pictures[193],
           stage: stage[4],
           from: ["Golemon", "Tankmon", "Meramon"],
           into: ["PileVolcamon", "Gankoomon", "MetalEtemon"],
         },
         {
           name: "Matadormon",
-          image: pictures[0],
+          image: pictures[194],
           stage: stage[4],
           from: ["Sangloupmon", "Bakemon", "Agunimon"],
           into: ["GranDracmon", "VenomMyotismon", "Piedmon"],
         },
         {
           name: "MachGaogamon",
-          image: pictures[0],
+          image: pictures[195],
           stage: stage[4],
           from: [
             "Ikkakumon",
@@ -1902,14 +1902,14 @@ class DigiDB {
         },
         {
           name: "Mamemon",
-          image: pictures[0],
+          image: pictures[196],
           stage: stage[4],
           from: ["Starmon", "Tyrannomon", "Meramon"],
           into: ["WarGreymon", "Puppetmon", "PrinceMamemon"],
         },
         {
           name: "MegaSeadramon",
-          image: pictures[0],
+          image: pictures[197],
           stage: stage[4],
           from: [
             "ShellNumemon",
@@ -1923,7 +1923,7 @@ class DigiDB {
         },
         {
           name: "Megadramon",
-          image: pictures[0],
+          image: pictures[198],
           stage: stage[4],
           from: ["Greymon", "Cyclonemon", "Tyrannomon", "Airdramon"],
           into: [
@@ -1936,7 +1936,7 @@ class DigiDB {
         },
         {
           name: "WarGrowlmon",
-          image: pictures[0],
+          image: pictures[199],
           stage: stage[4],
           from: ["Gargomon", "Growlmon", "Veedramon", "Coredramon (Green)"],
           into: [
@@ -1949,7 +1949,7 @@ class DigiDB {
         },
         {
           name: "MetalGreymon",
-          image: pictures[0],
+          image: pictures[200],
           stage: stage[4],
           from: ["Growlmon", "Greymon", "Leomon", "Airdramon"],
           into: ["WarGreymon", "Gaiomon", "RustTyranomon"],
@@ -2607,15 +2607,15 @@ class DigiDB {
           name: "MagnaGarurumon",
           image: pictures[0],
           stage: stage[5],
-          from: ["KendoGarurumon", "KendoGarurumon (SV)"],
-          into: ["KendoGarurumon (SV)", "Susanomon"],
+          from: ["KendoGarurumon", "MagnaGarurumon (SV)"],
+          into: ["MagnaGarurumon (SV)", "Susanomon"],
         },
         {
-          name: "KendoGarurumon (SV)",
+          name: "MagnaGarurumon (SV)",
           image: pictures[0],
           stage: stage[5],
-          from: ["KendoGarurumon"],
-          into: ["KendoGarurumon"],
+          from: ["MagnaGarurumon"],
+          into: ["MagnaGarurumon"],
         },
         {
           name: "Mastemon",
