@@ -219,164 +219,124 @@ import ebemonPic from "../assets/digimonPictures/ebemon.png";
 import imperialdramondmPic from "../assets/digimonPictures/imperialdramondm.png";
 import imperialdramonfmPic from "../assets/digimonPictures/imperialdramonfm.png";
 import vikemonPic from "../assets/digimonPictures/vikemon.png";
-import valkyrimonPic from "../assets/digimonPictures/gaogamon.png";
-/*
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-import gaogamonPic from "../assets/digimonPictures/gaogamon.png";
-*/
+import valkyrimonPic from "../assets/digimonPictures/valkyrimon.png";
+import varodurumonPic from "../assets/digimonPictures/varodurumon.png";
+import venommyotismonPic from "../assets/digimonPictures/venommyotismon.png";
+import wargreymonPic from "../assets/digimonPictures/wargreymon.png";
+import ophanimonPic from "../assets/digimonPictures/ophanimon.png";
+import gaiomonPic from "../assets/digimonPictures/gaiomon.png";
+import kaisergreymonPic from "../assets/digimonPictures/kaisergreymon.png";
+import chaosgallantmonPic from "../assets/digimonPictures/chaosgallantmon.png";
+import chaosdramonPic from "../assets/digimonPictures/chaosdramon.png";
+import gankoomonPic from "../assets/digimonPictures/gankoomon.png";
+import kingetemonPic from "../assets/digimonPictures/kingetemon.png";
+import kuzuhamonPic from "../assets/digimonPictures/kuzuhamon.png";
+import grankuwagamonPic from "../assets/digimonPictures/grankuwagamon.png";
+import grandracmonPic from "../assets/digimonPictures/grandracmon.png";
+import groundlocomomPic from "../assets/digimonPictures/groundlocomom.png";
+import gryphonmonPic from "../assets/digimonPictures/gryphonmon.png";
+import craniamonPic from "../assets/digimonPictures/craniamon.png";
+import kerpymonblkPic from "../assets/digimonPictures/kerpymonblk.png";
+import kerpymongoodPic from "../assets/digimonPictures/kerpymongood.png";
+import goldramonPic from "../assets/digimonPictures/goldramon.png";
+import saberleomonPic from "../assets/digimonPictures/saberleomon.png";
+import sakuyamonPic from "../assets/digimonPictures/sakuyamon.png";
+import jesmonPic from "../assets/digimonPictures/jesmon.png";
+import shinegreymonPic from "../assets/digimonPictures/shinegreymon.png";
+import shinegreymonbmPic from "../assets/digimonPictures/shinegreymonbm.png";
+import justimonPic from "../assets/digimonPictures/justimon.png";
+import kentaurosmonPic from "../assets/digimonPictures/kentaurosmon.png";
+import slayerdramonPic from "../assets/digimonPictures/slayerdramon.png";
+import seraphimonPic from "../assets/digimonPictures/seraphimon.png";
+import megagargomonPic from "../assets/digimonPictures/megagargomon.png";
+import darkdramonPic from "../assets/digimonPictures/darkdramon.png";
+import tigervespamonPic from "../assets/digimonPictures/tigervespamon.png";
+import titamonPic from "../assets/digimonPictures/titamon.png";
+import tyrantkabuterimonPic from "../assets/digimonPictures/tyrantkabuterimon.png";
+import dianamonPic from "../assets/digimonPictures/dianamon.png";
+import diaboromonPic from "../assets/digimonPictures/diaboromon.png";
+import creepymonPic from "../assets/digimonPictures/creepymon.png";
+import gallantmonPic from "../assets/digimonPictures/gallantmon.png";
+import dynasmonPic from "../assets/digimonPictures/dynasmon.png";
+import durandamonPic from "../assets/digimonPictures/durandamon.png";
+import leopardmonPic from "../assets/digimonPictures/leopardmon.png";
+import leopardmonlmPic from "../assets/digimonPictures/leopardmonlm.png";
+import dorugoramonPic from "../assets/digimonPictures/dorugoramon.png";
+import neptunemonPic from "../assets/digimonPictures/neptunemon.png";
+import hiandromonPic from "../assets/digimonPictures/hiandromon.png";
+import pilevolcamonPic from "../assets/digimonPictures/pilevolcamon.png";
+import barbamonPic from "../assets/digimonPictures/barbamon.png";
+import bancholeomonPic from "../assets/digimonPictures/bancholeomon.png";
+import piedmonPic from "../assets/digimonPictures/piedmon.png";
+import puppetmonPic from "../assets/digimonPictures/puppetmon.png";
+import platinumnumemonPic from "../assets/digimonPictures/platinumnumemon.png";
+import blackwargreymonPic from "../assets/digimonPictures/blackwargreymon.png";
+import princemamemonPic from "../assets/digimonPictures/princemamemon.png";
+import breakdramonPic from "../assets/digimonPictures/breakdramon.png";
+import plesiomonPic from "../assets/digimonPictures/plesiomon.png";
+import herculeskabuterimonPic from "../assets/digimonPictures/herculeskabuterimon.png";
+import beelzemonPic from "../assets/digimonPictures/beelzemon.png";
+import beelzemonbmPic from "../assets/digimonPictures/beelzemonbm.png";
+import belphemonsmPic from "../assets/digimonPictures/belphemonsm.png";
+import hououmonPic from "../assets/digimonPictures/hououmon.png";
+import magnadramonPic from "../assets/digimonPictures/magnadramon.png";
+import boltmonPic from "../assets/digimonPictures/boltmon.png";
+import magnagarurumonPic from "../assets/digimonPictures/magnagarurumon.png";
+import magnagarurumonsvPic from "../assets/digimonPictures/magnagarurumonsv.png";
+import mastemonPic from "../assets/digimonPictures/mastemon.png";
+import marineangemonPic from "../assets/digimonPictures/marineangemon.png";
+import minervamonPic from "../assets/digimonPictures/minervamon.png";
+import miragegaogamonPic from "../assets/digimonPictures/miragegaogamon.png";
+import miragegaogamonbmPic from "../assets/digimonPictures/miragegaogamonbm.png";
+import machinedramonPic from "../assets/digimonPictures/machinedramon.png";
+import megidramonPic from "../assets/digimonPictures/megidramon.png";
+import metaletemonPic from "../assets/digimonPictures/metaletemon.png";
+import metalgarurumonPic from "../assets/digimonPictures/metalgarurumon.png";
+import metalgarurumonblkPic from "../assets/digimonPictures/metalgarurumonblk.png";
+import metalseadramonPic from "../assets/digimonPictures/metalseadramon.png";
+import merukimonPic from "../assets/digimonPictures/merukimon.png";
+import rusttyranomonPic from "../assets/digimonPictures/rusttyranomon.png";
+import leviamonPic from "../assets/digimonPictures/leviamon.png";
+import lilithmonPic from "../assets/digimonPictures/lilithmon.png";
+import ravemonPic from "../assets/digimonPictures/ravemon.png";
+import ravemonbmPic from "../assets/digimonPictures/ravemonbm.png";
+import crusadermonPic from "../assets/digimonPictures/crusadermon.png";
+import rosemonPic from "../assets/digimonPictures/rosemon.png";
+import rosemonbmPic from "../assets/digimonPictures/rosemonbm.png";
+import lotosmonPic from "../assets/digimonPictures/lotosmon.png";
+import armageddemonPic from "../assets/digimonPictures/armageddemon.png";
+import arcadiamonultraPic from "../assets/digimonPictures/arcadiamonultra.png";
+import alphamonouryukenPic from "../assets/digimonPictures/alphamonouryuken.png";
+import imperialdramonpmPic from "../assets/digimonPictures/imperialdramonpm.png";
+import examonPic from "../assets/digimonPictures/examon.png";
+import omnimonPic from "../assets/digimonPictures/omnimon.png";
+import omnimonzwartPic from "../assets/digimonPictures/omnimonzwart.png";
+import chaosmonPic from "../assets/digimonPictures/chaosmon.png";
+import chaosmonvaPic from "../assets/digimonPictures/chaosmonva.png";
+import susanomonPic from "../assets/digimonPictures/susanomon.png";
+import gallantmoncmPic from "../assets/digimonPictures/gallantmoncm.png";
+import belphemonrmPic from "../assets/digimonPictures/belphemonrm.png";
+import lucemonsmPic from "../assets/digimonPictures/lucemonsm.png";
+import flamedramonPic from "../assets/digimonPictures/flamedramon.png";
+import magnamonPic from "../assets/digimonPictures/magnamon.png";
+import rapidmonarmorPic from "../assets/digimonPictures/rapidmonarmor.png";
+import shoutmonPic from "../assets/digimonPictures/shoutmon.png";
+import omnishoutmonPic from "../assets/digimonPictures/omnishoutmon.png";
+import ryudamonPic from "../assets/digimonPictures/ryudamon.png";
+import ginryumonPic from "../assets/digimonPictures/ginryumon.png";
+import hisyaryumonPic from "../assets/digimonPictures/hisyaryumon.png";
+import ouryumonPic from "../assets/digimonPictures/ouryumon.png";
+import apocalymonPic from "../assets/digimonPictures/apocalymon.png";
+import sistermonblancPic from "../assets/digimonPictures/sistermonblanc.png";
+import sistermonbawakePic from "../assets/digimonPictures/sistermonbawake.png";
+import sistermoncielPic from "../assets/digimonPictures/sistermonciel.png";
+import sistermoncawakePic from "../assets/digimonPictures/sistermoncawake.png";
+import alphamonnxPic from "../assets/digimonPictures/alphamonnx.png";
+import crusadermonnxPic from "../assets/digimonPictures/crusadermonnx.png";
+import leopardmonnxPic from "../assets/digimonPictures/leopardmonnx.png";
+import omnimonnxPic from "../assets/digimonPictures/omnimonnx.png";
+import gallantmonnxPic from "../assets/digimonPictures/gallantmonnx.png";
+
 const DigimonPictures = () => {
   const pictures = [
     kuramonPic,
@@ -601,6 +561,122 @@ const DigimonPictures = () => {
     imperialdramonfmPic,
     vikemonPic,
     valkyrimonPic,
+    varodurumonPic,
+    venommyotismonPic,
+    wargreymonPic,
+    ophanimonPic,
+    gaiomonPic,
+    kaisergreymonPic,
+    chaosgallantmonPic,
+    chaosdramonPic,
+    gankoomonPic,
+    kingetemonPic,
+    kuzuhamonPic,
+    grankuwagamonPic,
+    grandracmonPic,
+    groundlocomomPic,
+    gryphonmonPic,
+    craniamonPic,
+    kerpymonblkPic,
+    kerpymongoodPic,
+    goldramonPic,
+    saberleomonPic,
+    sakuyamonPic,
+    jesmonPic,
+    shinegreymonPic,
+    shinegreymonbmPic,
+    justimonPic,
+    kentaurosmonPic,
+    slayerdramonPic,
+    seraphimonPic,
+    megagargomonPic,
+    darkdramonPic,
+    tigervespamonPic,
+    titamonPic,
+    tyrantkabuterimonPic,
+    dianamonPic,
+    diaboromonPic,
+    creepymonPic,
+    gallantmonPic,
+    dynasmonPic,
+    durandamonPic,
+    leopardmonPic,
+    leopardmonlmPic,
+    dorugoramonPic,
+    neptunemonPic,
+    hiandromonPic,
+    pilevolcamonPic,
+    barbamonPic,
+    bancholeomonPic,
+    piedmonPic,
+    puppetmonPic,
+    platinumnumemonPic,
+    blackwargreymonPic,
+    princemamemonPic,
+    breakdramonPic,
+    plesiomonPic,
+    herculeskabuterimonPic,
+    beelzemonPic,
+    beelzemonbmPic,
+    belphemonsmPic,
+    hououmonPic,
+    magnadramonPic,
+    boltmonPic,
+    magnagarurumonPic,
+    magnagarurumonsvPic,
+    mastemonPic,
+    marineangemonPic,
+    minervamonPic,
+    miragegaogamonPic,
+    miragegaogamonbmPic,
+    machinedramonPic,
+    megidramonPic,
+    metaletemonPic,
+    metalgarurumonPic,
+    metalgarurumonblkPic,
+    metalseadramonPic,
+    merukimonPic,
+    rusttyranomonPic,
+    leviamonPic,
+    lilithmonPic,
+    ravemonPic,
+    ravemonbmPic,
+    crusadermonPic,
+    rosemonPic,
+    rosemonbmPic,
+    lotosmonPic,
+    armageddemonPic,
+    arcadiamonultraPic,
+    alphamonouryukenPic,
+    imperialdramonpmPic,
+    examonPic,
+    omnimonPic,
+    omnimonzwartPic,
+    chaosmonPic,
+    chaosmonvaPic,
+    susanomonPic,
+    gallantmoncmPic,
+    belphemonrmPic,
+    lucemonsmPic,
+    flamedramonPic,
+    magnamonPic,
+    rapidmonarmorPic,
+    shoutmonPic,
+    omnishoutmonPic,
+    ryudamonPic,
+    ginryumonPic,
+    hisyaryumonPic,
+    ouryumonPic,
+    apocalymonPic,
+    sistermonblancPic,
+    sistermonbawakePic,
+    sistermoncielPic,
+    sistermoncawakePic,
+    alphamonnxPic,
+    crusadermonnxPic,
+    leopardmonnxPic,
+    omnimonnxPic,
+    gallantmonnxPic,
   ];
   return pictures;
 };
