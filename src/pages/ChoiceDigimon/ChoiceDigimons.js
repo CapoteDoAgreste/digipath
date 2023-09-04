@@ -1,5 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/no-unstable-nested-components */
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, BackHandler} from 'react';
 import {
   StyleSheet,
   Text,
@@ -19,6 +20,7 @@ let i = 0;
 
 export default function ChoiceDigimon() {
   useEffect(() => {}, [initial, final]);
+
   const [initial, setDigimon01] = useState(digimons[i]);
   const [final, setDigimon02] = useState(digimons[6]);
 
@@ -51,7 +53,7 @@ export default function ChoiceDigimon() {
         <View style={styles.pathCardImageBackground}>
           <Image source={digimons[ID].image} style={styles.pathCardImage} />
         </View>
-        <Text>{name.item}</Text>
+        <Text style={styles.pathCardText}>{name.item}</Text>
       </View>
     );
   };
@@ -123,11 +125,16 @@ const styles = StyleSheet.create({
     margin: 8,
     borderRadius: 64,
     flexDirection: 'row',
+    shadowColor: '#171717',
+    shadowOffset: {width: -2, height: 4},
+    shadowOpacity: 0.2,
+    shadowRadius: 3,
   },
   pathCardImage: {
     height: 64,
     width: 64,
     borderRadius: 32,
+    ShadowRadius: 16,
   },
   pathCardImageBackground: {
     marginVertical: 16,
@@ -135,6 +142,13 @@ const styles = StyleSheet.create({
     width: 64,
     left: 16,
     borderRadius: 32,
+  },
+  pathCardText: {
+    fontSize: 26,
+    alignSelf: 'center',
+    fontWeight: 'bold',
+    marginLeft: 50,
+    color: '#F2FBFE',
   },
   list: {
     flex: 1,

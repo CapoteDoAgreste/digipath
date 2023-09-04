@@ -29,6 +29,8 @@ export default function DigimonSelectorModal({
       <FlatList
         data={list}
         renderItem={SelectItem}
+        maxToRenderPerBatch={100}
+        initialNumToRender={20}
         keyExtractor={(digimon, index) => index.toString()}
       />
     </View>
@@ -56,5 +58,6 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: '#ECECEC',
     flexDirection: 'row',
+    width: '100%',
   },
 });
