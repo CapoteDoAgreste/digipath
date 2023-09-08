@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/no-unstable-nested-components */
-import React, {useState, useEffect, BackHandler} from 'react';
+import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
   Text,
@@ -8,18 +8,29 @@ import {
   TouchableOpacity,
   FlatList,
   Image,
+  BackHandler,
 } from 'react-native';
 import {findPath, getID} from '../../scripts/DigiPath';
 import DigiDB from '../../mocks/DigiDB';
 import ChoiceCard from './components/ChoiceCard';
 import DigimonSelectorModal from './components/DigimonSelectorModal';
+import {useNavigation} from '@react-navigation/native';
 
 const database = new DigiDB().digimonData;
 const {digimons} = database;
 let i = 0;
 
 export default function ChoiceDigimon() {
-  useEffect(() => {}, [initial, final]);
+  const navigation = useNavigation();
+  useEffect(() => {
+    BackHandler.addEventListener('hardwareBackPress', handleBackButtonClick);
+    return () => {
+      BackHandler.removeEventListener(
+        'hardwareBackPress',
+        handleBackButtonClick,
+      );
+    };
+  }, [initial, final]);
 
   const [initial, setDigimon01] = useState(digimons[i]);
   const [final, setDigimon02] = useState(digimons[6]);
@@ -27,20 +38,20 @@ export default function ChoiceDigimon() {
   const [isVisible01, setVisible01] = useState(false);
   const [isVisible02, setVisible02] = useState(false);
 
-  const changeVisilibity01WithChoice = newDigimon => {
-    setDigimon01(newDigimon);
-    setVisible01(!isVisible01);
-  };
-  const changeVisilibity02WithChoice = newDigimon => {
-    setDigimon02(newDigimon);
-    setVisible02(!isVisible02);
+  const handleBackButtonClick = () => {
+    setVisible01(false);
+    setVisible02(false);
+    return true;
   };
 
-  const changeVisilibity01WithoutChoice = newDigimon => {
-    setVisible01(!isVisible01);
+  const openSelectorDigimon01 = () => {
+    const setDigimon = setDigimon01;
+    const deliverydata = {digimons, setDigimon};
+    navigation.navigate('DigimonSelector', {list: digimons, set: setDigimon});
   };
-  const changeVisilibity02WithoutChoice = newDigimon => {
-    setVisible02(!isVisible02);
+  const openSelectorDigimon02 = newDigimon => {
+    const setDigimon = setDigimon02;
+    navigation.navigate('DigimonSelector', {list: digimons, set: setDigimon});
   };
 
   let path = findPath(initial.name, final.name, []);
@@ -61,37 +72,27 @@ export default function ChoiceDigimon() {
   return (
     <>
       <FlatList
+        style={styles.pathList}
         data={path}
         renderItem={PathCard}
         keyExtractor={(name, index) => index.toString()}
         ListHeaderComponent={
-          <>
+          <View style={styles.topArea}>
             <View style={styles.choiceCards}>
               <ChoiceCard
                 digimon={initial}
-                openSelector={changeVisilibity01WithoutChoice}
+                openSelector={openSelectorDigimon01}
               />
               <ChoiceCard
                 digimon={final}
-                openSelector={changeVisilibity02WithoutChoice}
+                openSelector={openSelectorDigimon02}
               />
             </View>
             <TouchableOpacity style={styles.pathButton}>
               <Text style={styles.pathButtonText}>Make Digipath</Text>
             </TouchableOpacity>
-          </>
+          </View>
         }
-      />
-      <DigimonSelectorModal
-        list={digimons}
-        visibility={isVisible01}
-        setVisibility={changeVisilibity01WithChoice}
-      />
-
-      <DigimonSelectorModal
-        list={digimons}
-        visibility={isVisible02}
-        setVisibility={changeVisilibity02WithChoice}
       />
     </>
   );
@@ -103,6 +104,12 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     marginTop: 4,
   },
+  topArea: {
+    backgroundColor: '#007FA7',
+    paddingBottom: 20,
+    zIndex: 0,
+  },
+
   pathButton: {
     backgroundColor: '#FFC733',
     width: 355,
