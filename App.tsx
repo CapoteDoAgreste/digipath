@@ -3,8 +3,8 @@ import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
 
-import DigimonProfileHome from './src/pages/DigimonProfiles';
 import DigiPathRoute from './src/routes/DigiPathRoutes';
+import DigimonProfileRoutes from './src/routes/DigiProfileRoutes';
 
 const styles = StyleSheet.create({
   background: {
@@ -19,7 +19,7 @@ function App(): JSX.Element {
       <NavigationContainer>
         <Tab.Navigator screenOptions={{headerShown: false}}>
           <Tab.Screen name="DigiPath" component={DigiPathRoute} />
-          <Tab.Screen name="DigiProfile" component={DigimonProfileHome} />
+          <Tab.Screen name="DigiProfile" component={DigimonProfileRoutes} />
         </Tab.Navigator>
       </NavigationContainer>
     </SafeAreaView>

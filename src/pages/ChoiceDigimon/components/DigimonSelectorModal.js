@@ -15,6 +15,7 @@ import {
 export default function DigimonSelectorModal({list, selectDigimon}) {
   const navigate = useNavigation();
   const [search, setSearch] = useState('');
+
   const SearchInput = () => (
     <View style={styles.searchView}>
       <TextInput

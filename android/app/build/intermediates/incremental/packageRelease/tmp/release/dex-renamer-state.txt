@@ -1,4 +1,4 @@
-#Fri Sep 08 15:59:01 BRT 2023
+#Tue Sep 12 10:11:33 BRT 2023
 base.0=/home/brisanet/Documentos/capote/react/digipath-main/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

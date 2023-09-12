@@ -22,27 +22,13 @@ let i = 0;
 
 export default function ChoiceDigimon() {
   const navigation = useNavigation();
-  useEffect(() => {
-    BackHandler.addEventListener('hardwareBackPress', handleBackButtonClick);
-    return () => {
-      BackHandler.removeEventListener(
-        'hardwareBackPress',
-        handleBackButtonClick,
-      );
-    };
-  }, [initial, final]);
+  useEffect(() => {}, [initial, final]);
 
   const [initial, setDigimon01] = useState(digimons[i]);
   const [final, setDigimon02] = useState(digimons[6]);
 
   const [isVisible01, setVisible01] = useState(false);
   const [isVisible02, setVisible02] = useState(false);
-
-  const handleBackButtonClick = () => {
-    setVisible01(false);
-    setVisible02(false);
-    return true;
-  };
 
   const openSelectorDigimon01 = () => {
     const setDigimon = setDigimon01;
@@ -60,12 +46,14 @@ export default function ChoiceDigimon() {
     const ID = getID(name.item);
 
     return (
-      <View style={styles.pathCard}>
+      <TouchableOpacity
+        style={styles.pathCard}
+        onPress={() => navigation.navigate('DigimonProfile', digimons[ID])}>
         <View style={styles.pathCardImageBackground}>
           <Image source={digimons[ID].image} style={styles.pathCardImage} />
         </View>
         <Text style={styles.pathCardText}>{name.item}</Text>
-      </View>
+      </TouchableOpacity>
     );
   };
 
