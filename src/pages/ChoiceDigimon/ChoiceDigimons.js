@@ -8,12 +8,10 @@ import {
   TouchableOpacity,
   FlatList,
   Image,
-  BackHandler,
 } from 'react-native';
 import {findPath, getID} from '../../scripts/DigiPath';
 import DigiDB from '../../mocks/DigiDB';
 import ChoiceCard from './components/ChoiceCard';
-import DigimonSelectorModal from './components/DigimonSelectorModal';
 import {useNavigation} from '@react-navigation/native';
 
 const database = new DigiDB().digimonData;
@@ -27,12 +25,8 @@ export default function ChoiceDigimon() {
   const [initial, setDigimon01] = useState(digimons[i]);
   const [final, setDigimon02] = useState(digimons[6]);
 
-  const [isVisible01, setVisible01] = useState(false);
-  const [isVisible02, setVisible02] = useState(false);
-
   const openSelectorDigimon01 = () => {
     const setDigimon = setDigimon01;
-    const deliverydata = {digimons, setDigimon};
     navigation.navigate('DigimonSelector', {list: digimons, set: setDigimon});
   };
   const openSelectorDigimon02 = newDigimon => {

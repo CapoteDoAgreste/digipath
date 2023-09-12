@@ -16,19 +16,24 @@ import GoToPreviousPage from '../../scripts/goToPreviousPage';
 export default function DigimonProfile() {
   const navigate = useNavigation();
   const database = new DigiDB().digimonData.digimons;
-  const [profile, setProfile] = useState(database[0]);
+  const route = useRoute().params;
+  const [profile, setProfile] = useState(route);
 
   GoToPreviousPage();
 
   const DigivolutionCard = item => {
     const ID = getID(item.item);
     return (
-      <View style={styles.digivolutionCard}>
+      <TouchableOpacity
+        style={styles.digivolutionCard}
+        onPress={() => {
+          setProfile(database[ID]);
+        }}>
         <View style={styles.digivolutionImageBackground}>
           <Image source={database[ID].image} style={styles.digivolutionImage} />
         </View>
         <Text style={styles.digivolutionName}>{item.item}</Text>
-      </View>
+      </TouchableOpacity>
     );
   };
 
@@ -99,7 +104,7 @@ const styles = StyleSheet.create({
   },
   profileCard: {
     backgroundColor: '#FFFFFF',
-    height: 212,
+    height: 226,
     borderBottomLeftRadius: 58,
     borderBottomRightRadius: 58,
     padding: 16,
@@ -128,6 +133,7 @@ const styles = StyleSheet.create({
     padding: 4,
     marginLeft: 4,
     textAlign: 'center',
+    width: 196,
   },
   cardRow2: {
     height: '100%',
@@ -148,6 +154,8 @@ const styles = StyleSheet.create({
   digivolutionsTitle: {
     color: '#fff',
     fontSize: 20,
+    marginLeft: 32,
+    marginTop: 10,
     fontWeight: 'bold',
   },
   digivolutionCard: {
@@ -169,5 +177,7 @@ const styles = StyleSheet.create({
   },
   digivolutionName: {
     color: '#333D40',
+    fontSize: 24,
+    marginLeft: 24,
   },
 });
