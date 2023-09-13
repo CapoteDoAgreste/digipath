@@ -13,6 +13,7 @@ import {findPath, getID} from '../../scripts/DigiPath';
 import DigiDB from '../../mocks/DigiDB';
 import ChoiceCard from './components/ChoiceCard';
 import {useNavigation} from '@react-navigation/native';
+import PlusIcon from '../../assets/Other/plus.png';
 
 const database = new DigiDB().digimonData;
 const {digimons} = database;
@@ -21,6 +22,14 @@ let i = 0;
 export default function ChoiceDigimon() {
   const navigation = useNavigation();
   useEffect(() => {}, [initial, final]);
+
+  const [exceptionsDigimon, setExceptionsDigimons] = useState([
+    'Kuramon',
+    'Pabumon',
+    'Kuramon',
+    'Pabumon',
+    'Kuramon',
+  ]);
 
   const [initial, setDigimon01] = useState(digimons[i]);
   const [final, setDigimon02] = useState(digimons[6]);
@@ -51,6 +60,34 @@ export default function ChoiceDigimon() {
     );
   };
 
+  const ExceptionDigimonComponent = name => {
+    const ID = getID(name.item);
+    return (
+      <>
+        <TouchableOpacity
+          style={styles.removeButton}
+          onPress={() => {
+            const updatedExceptionsDigimon = [...exceptionsDigimon]; // Create a copy of the array
+            const indexOfItemToRemove = updatedExceptionsDigimon.indexOf(
+              name.item,
+            );
+
+            if (indexOfItemToRemove !== -1) {
+              updatedExceptionsDigimon.splice(indexOfItemToRemove, 1); // Remove the item
+              setExceptionsDigimons(updatedExceptionsDigimon); // Update the state
+              console.log(updatedExceptionsDigimon); // Log the updated array
+            }
+          }}>
+          <Text>X</Text>
+        </TouchableOpacity>
+        <Image
+          source={digimons[ID].image}
+          style={styles.exceptionDigimonImage}
+        />
+      </>
+    );
+  };
+
   return (
     <>
       <FlatList
@@ -70,9 +107,42 @@ export default function ChoiceDigimon() {
                 openSelector={openSelectorDigimon02}
               />
             </View>
-            <TouchableOpacity style={styles.pathButton}>
-              <Text style={styles.pathButtonText}>Make Digipath</Text>
-            </TouchableOpacity>
+            <View style={styles.exceptionsButton}>
+              <FlatList
+                style={styles.exceptions}
+                data={exceptionsDigimon}
+                renderItem={ExceptionDigimonComponent}
+                keyExtractor={(name, index) => index.toString()}
+              />
+              {exceptionsDigimon.length === 0 && (
+                <View style={styles.exceptions}>
+                  <Image
+                    source={PlusIcon}
+                    style={styles.exceptionDigimonImage}
+                  />
+                  <Image
+                    source={PlusIcon}
+                    style={styles.exceptionDigimonImage}
+                  />
+                  <Image
+                    source={PlusIcon}
+                    style={styles.exceptionDigimonImage}
+                  />
+                  <Image
+                    source={PlusIcon}
+                    style={styles.exceptionDigimonImage}
+                  />
+                  <Image
+                    source={PlusIcon}
+                    style={styles.exceptionDigimonImage}
+                  />
+                  <Image
+                    source={PlusIcon}
+                    style={styles.exceptionDigimonImage}
+                  />
+                </View>
+              )}
+            </View>
           </View>
         }
       />
@@ -90,21 +160,40 @@ const styles = StyleSheet.create({
     backgroundColor: '#007FA7',
     paddingBottom: 20,
     zIndex: 0,
+    height: 272,
+    marginBottom: 48,
   },
 
-  pathButton: {
-    backgroundColor: '#FFC733',
+  exceptionsButton: {
+    backgroundColor: '#005570',
     width: 355,
-    height: 48,
-    borderRadius: 32,
+    borderRadius: 52,
     alignSelf: 'center',
-    alignItems: 'center',
+    position: 'absolute',
+    padding: 22,
+    paddingHorizontal: 24,
+    top: 216,
   },
-  pathButtonText: {
-    padding: 14,
-    color: '#F2FBFE',
-    fontSize: 16,
-    fontWeight: 'bold',
+  exceptions: {flexDirection: 'row'},
+  exceptionDigimonImage: {
+    width: 48,
+    height: 48,
+    borderRadius: 48 / 2,
+    backgroundColor: '#638995',
+    marginHorizontal: 2,
+    zIndex: 0,
+  },
+  removeButton: {
+    position: 'absolute',
+    zIndex: 1,
+    flex: 1,
+    backgroundColor: '#000',
+    padding: 4,
+    width: 24,
+    left: 32,
+    top: -8,
+    alignItems: 'center',
+    borderRadius: 100,
   },
   pathCard: {
     height: 96,
