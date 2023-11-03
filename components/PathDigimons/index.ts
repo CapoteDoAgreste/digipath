@@ -1,0 +1,2 @@
+export {PathDigimons} from './PathDigimons';
+

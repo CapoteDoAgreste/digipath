@@ -1,6 +1,5 @@
-import {useNavigation, useRoute} from '@react-navigation/native';
+import {useNavigation} from '@react-navigation/native';
 import React from 'react';
-import {Image, Text} from 'react-native';
 import DigiDB from '../../mocks/DigiDB';
 import DigimonSelector from '../ChoiceDigimon/DigimonSelector';
 

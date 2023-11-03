@@ -1,0 +1,2 @@
+export {ExceptionDigimon} from './ExceptionDigimon';
+

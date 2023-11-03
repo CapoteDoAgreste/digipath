@@ -1,7 +1,6 @@
 import DigiDb from '../mocks/DigiDB';
 
 const database = new DigiDb().digimonData;
-let path = [];
 
 export function getID(digiName) {
   const {digimons} = database;

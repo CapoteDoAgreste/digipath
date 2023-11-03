@@ -1740,10 +1740,11 @@ int drawable src_assets_digimonpictures_yokomon 0x7f0701dc
 int drawable src_assets_digimonpictures_zubaeagermon 0x7f0701dd
 int drawable src_assets_digimonpictures_zubamon 0x7f0701de
 int drawable src_assets_digimonpictures_zudomon 0x7f0701df
-int drawable test_custom_background 0x7f0701e0
-int drawable test_level_drawable 0x7f0701e1
-int drawable tooltip_frame_dark 0x7f0701e2
-int drawable tooltip_frame_light 0x7f0701e3
+int drawable src_assets_other_plus 0x7f0701e0
+int drawable test_custom_background 0x7f0701e1
+int drawable test_level_drawable 0x7f0701e2
+int drawable tooltip_frame_dark 0x7f0701e3
+int drawable tooltip_frame_light 0x7f0701e4
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
