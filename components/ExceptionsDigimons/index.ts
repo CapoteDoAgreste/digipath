@@ -1,2 +1,0 @@
-export {ExceptionsDigimons} from './ExceptionsDigimons';
-

@@ -1,7 +1,7 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-import {SafeAreaView, StyleSheet} from 'react-native';
+import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
 
 import DigiPathRoute from './src/routes/DigiPathRoutes';
 import DigimonProfileRoutes from './src/routes/DigiProfileRoutes';
@@ -12,10 +12,12 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 });
+
 const Tab = createBottomTabNavigator();
 function App(): JSX.Element {
   return (
     <SafeAreaView style={styles.background}>
+      <StatusBar backgroundColor={'#007fa9'} />
       <NavigationContainer>
         <Tab.Navigator
           screenOptions={{
